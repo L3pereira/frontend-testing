@@ -18,7 +18,7 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 
 ### Links
 
-- Live Site URL: [Blog Preview Card](https://l3pereira.github.io/blog-preview-card/)
+- Live Site URL: [Blog Preview Card](https://l3pereira.github.io/frontend-testing/blog-preview-card/)
 
 ## My process
 
