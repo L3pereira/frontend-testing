@@ -18,7 +18,7 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 
 ### Links
 
-- Live Site URL: [QR Code Component](https://l3pereira.github.io/qr-code-component-solution/)
+- Live Site URL: [Blog Preview Card](https://l3pereira.github.io/blog-preview-card/)
 
 ## My process
 
