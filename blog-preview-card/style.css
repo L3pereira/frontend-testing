@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --yellow: hsl(47, 88%, 63%);
+  --gray-950: hsl(0, 0%, 7%);
+  --gray-500: hsl(0, 0%, 42%);
+  --extra-bold: 800;
+  --medium: 500;
+  --regular: 400;
+}
+
+body {
+  background-color: var(--yellow);
+  font-family: "Figtree", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: white;
+  padding: 24px;
+  width: 384px;
+  border-radius: 20px;
+  box-shadow: 8px 8px 0px 0px rgba(0, 0, 0, 1);
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.card .blog-img {
+  height: 200px;
+  border-radius: 10px;
+}
+
+.card .content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.card .content .title {
+  font-size: 24px;
+  font-weight: var(--extra-bold);
+  line-height: 140%;
+  color: var(--gray-950);
+}
+
+.card .content .subtitle {
+  font-size: 16px;
+  font-weight: var(--regular);
+  line-height: 150%;
+  color: var(--gray-500);
+}
+
+.card .author {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.card .author img {
+  width: 32px;
+  height: 32px;
+}
+
+.card .author p {
+  font-size: 14px;
+  font-weight: var(--extra-bold);
+  line-height: 150%;
+  color: var(--gray-950);
+}
+
+.card .date {
+  font-size: 14px;
+  font-weight: var(--medium);
+  line-height: 150%;
+  color: var(--gray-950);
+}
+
+.card .content .text-box {
+  padding: 4px 12px;
+  background-color: var(--yellow);
+  font-size: 14px;
+  font-weight: var(--extra-bold);
+  line-height: 150%;
+  color: var(--gray-950);
+}
